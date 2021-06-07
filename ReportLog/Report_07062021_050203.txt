@@ -1,0 +1,74 @@
+~~ Env Config ~~
+Project : Amazon IN
+URL : https://www.amazon.in/
+Browser : Chrome
+
+
+------------------------------------------------------------
+
+Test Started :: AddLocation
+
+2021-06-07 11:31:23Z [INFO] Adding ability for Screenplay actor 'TestUser_1' to browse the Web with OpenQA.Selenium.Chrome.ChromeDriver
+2021-06-07 11:31:23Z [INFO] Screenplay actor 'TestUser_1' attempts to Navigate browser to 'https://www.amazon.in/'
+2021-06-07 11:31:33Z [INFO] Screenplay actor 'TestUser_1' successfully did Navigate browser to 'https://www.amazon.in/'
+2021-06-07 11:31:33Z [INFO] Screenplay actor 'TestUser_1' asks for Appearance of 'Deliver To Location'
+2021-06-07 11:31:34Z [INFO] Appearance of 'Deliver To Location' was True
+2021-06-07 11:31:34Z [INFO] Screenplay actor 'TestUser_1' attempts to TAF_ScreenplayPattern.Tasks.SelectLocation
+2021-06-07 11:31:34Z [INFO] Screenplay actor 'TestUser_1' attempts to Click on 'Deliver To Location'
+2021-06-07 11:31:34Z [INFO] Screenplay actor 'TestUser_1' asks for Wait until Appearance of 'Deliver To Location' is equal to 'True'
+2021-06-07 11:31:34Z [INFO] Wait until Appearance of 'Deliver To Location' is equal to 'True' for up to 30s was True
+2021-06-07 11:31:35Z [INFO] Screenplay actor 'TestUser_1' successfully did Click on 'Deliver To Location'
+2021-06-07 11:31:35Z [INFO] Screenplay actor 'TestUser_1' asks for Appearance of 'Choose Your Location Popup'
+2021-06-07 11:31:35Z [INFO] Appearance of 'Choose Your Location Popup' was True
+2021-06-07 11:31:35Z [INFO] Screenplay actor 'TestUser_1' attempts to Clear using backspaces, then send keys '411038' to Location Input
+2021-06-07 11:31:35Z [INFO] Screenplay actor 'TestUser_1' asks for Wait until Appearance of 'Location Input' is equal to 'True'
+2021-06-07 11:31:35Z [INFO] Wait until Appearance of 'Location Input' is equal to 'True' for up to 30s was True
+2021-06-07 11:31:36Z [INFO] Screenplay actor 'TestUser_1' successfully did Clear using backspaces, then send keys '411038' to Location Input
+2021-06-07 11:31:36Z [INFO] Screenplay actor 'TestUser_1' attempts to Click on 'Location Input'
+2021-06-07 11:31:36Z [INFO] Screenplay actor 'TestUser_1' asks for Wait until Appearance of 'Location Input' is equal to 'True'
+2021-06-07 11:31:36Z [INFO] Wait until Appearance of 'Location Input' is equal to 'True' for up to 30s was True
+2021-06-07 11:31:37Z [INFO] Screenplay actor 'TestUser_1' successfully did Click on 'Location Input'
+2021-06-07 11:31:37Z [INFO] Screenplay actor 'TestUser_1' successfully did TAF_ScreenplayPattern.Tasks.SelectLocation
+2021-06-07 11:31:39Z [INFO] Screenplay actor 'TestUser_1' asks for Appearance of 'Deliver to Value'
+2021-06-07 11:31:41Z [INFO] Appearance of 'Deliver to Value' was True
+2021-06-07 11:31:41Z [INFO] Screenplay actor 'TestUser_1' attempts to Quit the WebDriver
+2021-06-07 11:31:42Z [INFO] Screenplay actor 'TestUser_1' successfully did Quit the WebDriver
+
+Test Status :: PASS
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+
+Test Started :: ValidateHomeSearch
+
+
+BROWSER OVERRIDDEN : Firefox
+
+2021-06-07 11:31:51Z [INFO] Adding ability for Screenplay actor 'TestUser_1' to browse the Web with OpenQA.Selenium.Firefox.FirefoxDriver
+2021-06-07 11:31:51Z [INFO] Screenplay actor 'TestUser_1' attempts to Navigate browser to 'https://www.amazon.in/'
+2021-06-07 11:31:55Z [INFO] Screenplay actor 'TestUser_1' successfully did Navigate browser to 'https://www.amazon.in/'
+2021-06-07 11:31:57Z [INFO] Screenplay actor 'TestUser_1' asks for Boa.Constrictor.WebDriver.HtmlAttribute of 'value' for 'Search Bar'
+2021-06-07 11:31:57Z [INFO] Screenplay actor 'TestUser_1' asks for Wait until Existence of 'Search Bar' is equal to 'True'
+2021-06-07 11:31:57Z [INFO] Wait until Existence of 'Search Bar' is equal to 'True' for up to 30s was True
+2021-06-07 11:31:57Z [INFO] Boa.Constrictor.WebDriver.HtmlAttribute of 'value' for 'Search Bar' was 
+2021-06-07 11:31:57Z [INFO] Screenplay actor 'TestUser_1' attempts to TAF_ScreenplayPattern.Tasks.SearchAmazon
+2021-06-07 11:31:57Z [INFO] Screenplay actor 'TestUser_1' attempts to Clear using backspaces, then send keys 'Apple Ipad Pro' to Search Bar
+2021-06-07 11:31:57Z [INFO] Screenplay actor 'TestUser_1' asks for Wait until Appearance of 'Search Bar' is equal to 'True'
+2021-06-07 11:31:57Z [INFO] Wait until Appearance of 'Search Bar' is equal to 'True' for up to 30s was True
+2021-06-07 11:31:57Z [INFO] Screenplay actor 'TestUser_1' successfully did Clear using backspaces, then send keys 'Apple Ipad Pro' to Search Bar
+2021-06-07 11:31:57Z [INFO] Screenplay actor 'TestUser_1' attempts to Click on 'Search Button'
+2021-06-07 11:31:57Z [INFO] Screenplay actor 'TestUser_1' asks for Wait until Appearance of 'Search Button' is equal to 'True'
+2021-06-07 11:31:57Z [INFO] Wait until Appearance of 'Search Button' is equal to 'True' for up to 30s was True
+2021-06-07 11:31:57Z [INFO] Screenplay actor 'TestUser_1' successfully did Click on 'Search Button'
+2021-06-07 11:31:57Z [INFO] Screenplay actor 'TestUser_1' successfully did TAF_ScreenplayPattern.Tasks.SearchAmazon
+2021-06-07 11:31:59Z [INFO] Screenplay actor 'TestUser_1' asks for Appearance of 'Amazon Results Page'
+2021-06-07 11:32:00Z [INFO] Appearance of 'Amazon Results Page' was True
+2021-06-07 11:32:00Z [INFO] Screenplay actor 'TestUser_1' attempts to Quit the WebDriver
+2021-06-07 11:32:03Z [INFO] Screenplay actor 'TestUser_1' successfully did Quit the WebDriver
+
+Test Status :: PASS
+
+------------------------------------------------------------
+
